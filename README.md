@@ -11,18 +11,15 @@ It allows you to execute different types of trading strategies such as Limit Ord
 1. Clone this folder:
 - **Git Bash**
 ```bash
-git clone  
+git clone https://github.com/AryanGupta0007/aryan-binance-bot
 ```
 
-1. Unzip / Clone this folder:
-- **Windows PowerShell**
-```powershell
-cd .\aryan_binance_bot\
-```
+2. create a  virtual environment :
 - **Git Bash**
 ```bash
-cd aryan_binance_bot/ 
+python -m venv myenv
 ```
+
 
 2. Activate the virtual environment :
 - **Windows PowerShell**
@@ -35,7 +32,7 @@ cd aryan_binance_bot/
 source myenv/Scripts/activate 
 ```
 
-While running on powershell if an error occurs, run:
+While activating myenv on powershell if an error occurs, run:
 - **Windows PowerShell**
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
@@ -46,7 +43,19 @@ Then retry:
 .\myenv\Scripts\Activate.ps1
 ```
 
-3. Configure Binance API keys in a `.env` file:
+4. Install the requirements
+- **Windows PowerShell**
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+```
+Then retry:
+- **Windows PowerShell**
+```powershell
+.\myenv\Scripts\Activate.ps1
+```
+
+
+5. Configure Binance API keys in a `.env` file:
 ```
 BINANCE_API_KEY=your_api_key
 BINANCE_API_SECRET=your_api_secret
