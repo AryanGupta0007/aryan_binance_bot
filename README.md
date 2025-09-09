@@ -11,7 +11,13 @@ It allows you to execute different types of trading strategies such as Limit Ord
 1. Clone this folder:
 - **Git Bash**
 ```bash
-git clone https://github.com/AryanGupta0007/aryan-binance-bot
+git clone https://github.com/AryanGupta0007/aryan_binance_bot
+```
+
+2. Change cmd location to Project root
+- **Git Bash**
+```bash
+cd aryan_binance_bot/
 ```
 
 2. create a  virtual environment :
@@ -55,7 +61,7 @@ Then retry:
 ```
 
 
-5. Configure Binance API keys in a `.env` file:
+5. Create a .env folder in root folder  Configure Binance API keys in a `.env` file:
 ```
 BINANCE_API_KEY=your_api_key
 BINANCE_API_SECRET=your_api_secret
