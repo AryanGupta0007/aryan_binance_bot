@@ -1,0 +1,208 @@
+2025-09-09 20:20:50,026 - INFO - Binance client connected. Server time: {'serverTime': 1757429453748}
+2025-09-09 20:20:50,026 - INFO - Input Values FOR TWAP ORDER strategy symbol set to BTCUSDT stop_price set to 112800.0 limit_price set to 112900.0 quantity set to 0.05 side set to buy 
+2025-09-09 20:21:00,677 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001C0004EFE60>
+2025-09-09 20:21:00,677 - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x000001C002295D90>, 37625.156)])']
+connector: <aiohttp.connector.TCPConnector object at 0x000001C00164F080>
+2025-09-09 20:21:09,690 - INFO - Binance client connected. Server time: {'serverTime': 1757429473412}
+2025-09-09 20:21:10,198 - INFO - Limit order placed: {'orderId': 5644007371, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ5421de16fec0f6bbe15afb', 'price': '112980.00', 'avgPrice': '0.00', 'origQty': '0.500', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757429473917}
+2025-09-09 20:21:10,365 - INFO - Limit order placed: {'orderId': 5644007376, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ360e588c9e84304304ea13', 'price': '111970.00', 'avgPrice': '0.00', 'origQty': '0.500', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757429474085}
+2025-09-09 20:21:20,688 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000019A92F3FB90>
+2025-09-09 20:21:20,688 - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x0000019A92F59D30>, 37644.828)])']
+connector: <aiohttp.connector.TCPConnector object at 0x0000019A92EA7D10>
+2025-09-09 20:21:31,630 - INFO - Binance client connected. Server time: {'serverTime': 1757429495343}
+2025-09-09 20:21:31,634 - INFO - Input Values FOR TWAP ORDER strategy symbol set to btcusdt side set to buy quantity set to 1 parts set to 5 interval set to 10 
+2025-09-09 20:21:31,635 - INFO - Placing TWAP order: 5 slices, 10s interval
+2025-09-09 20:21:31,635 - INFO - Placing slice 1 of 5 for 0.2 BTCUSDT
+2025-09-09 20:21:31,964 - INFO - order status for orderid 5644008120 fetched: {'orderId': 5644008120, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJc9aa1912d450c07cf1021e', 'price': '0.00', 'avgPrice': '111709.30400', 'origQty': '0.200', 'executedQty': '0.200', 'cumQuote': '22341.86080', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1757429495523, 'updateTime': 1757429495523}
+2025-09-09 20:21:31,964 - INFO - Market order placed: {'orderId': 5644008120, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJc9aa1912d450c07cf1021e', 'price': '0.00', 'avgPrice': '111709.30400', 'origQty': '0.200', 'executedQty': '0.200', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757429495523}
+2025-09-09 20:21:31,965 - INFO - \u2705 Order 5644008120 placed for slice 1
+2025-09-09 20:21:41,969 - INFO - Placing slice 2 of 5 for 0.2 BTCUSDT
+2025-09-09 20:21:42,294 - INFO - order status for orderid 5644008383 fetched: {'orderId': 5644008383, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJa8d28c97c5851d6d0ce459', 'price': '0.00', 'avgPrice': '111708.13550', 'origQty': '0.200', 'executedQty': '0.200', 'cumQuote': '22341.62710', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1757429505850, 'updateTime': 1757429505850}
+2025-09-09 20:21:42,294 - INFO - Market order placed: {'orderId': 5644008383, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJa8d28c97c5851d6d0ce459', 'price': '0.00', 'avgPrice': '111708.13550', 'origQty': '0.200', 'executedQty': '0.200', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757429505850}
+2025-09-09 20:21:42,294 - INFO - \u2705 Order 5644008383 placed for slice 2
+2025-09-09 20:21:52,296 - INFO - Placing slice 3 of 5 for 0.2 BTCUSDT
+2025-09-09 20:21:52,935 - INFO - order status for orderid 5644008698 fetched: {'orderId': 5644008698, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJcd2822798c923daa3bc47', 'price': '0.00', 'avgPrice': '111804.17050', 'origQty': '0.200', 'executedQty': '0.200', 'cumQuote': '22360.83410', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1757429516488, 'updateTime': 1757429516488}
+2025-09-09 20:21:52,935 - INFO - Market order placed: {'orderId': 5644008698, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJcd2822798c923daa3bc47', 'price': '0.00', 'avgPrice': '111804.17050', 'origQty': '0.200', 'executedQty': '0.200', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757429516488}
+2025-09-09 20:21:52,935 - INFO - \u2705 Order 5644008698 placed for slice 3
+2025-09-09 20:22:02,947 - INFO - Placing slice 4 of 5 for 0.2 BTCUSDT
+2025-09-09 20:22:03,309 - INFO - order status for orderid 5644008933 fetched: {'orderId': 5644008933, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJb2fceec794e4bb0511865f', 'price': '0.00', 'avgPrice': '111622.40000', 'origQty': '0.200', 'executedQty': '0.200', 'cumQuote': '22324.48000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1757429526851, 'updateTime': 1757429526851}
+2025-09-09 20:22:03,309 - INFO - Market order placed: {'orderId': 5644008933, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJb2fceec794e4bb0511865f', 'price': '0.00', 'avgPrice': '111622.40000', 'origQty': '0.200', 'executedQty': '0.200', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757429526851}
+2025-09-09 20:22:03,309 - INFO - \u2705 Order 5644008933 placed for slice 4
+2025-09-09 20:22:13,311 - INFO - Placing slice 5 of 5 for 0.2 BTCUSDT
+2025-09-09 20:22:13,964 - INFO - order status for orderid 5644009174 fetched: {'orderId': 5644009174, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJee8d54e2480f91f9b5f8b9', 'price': '0.00', 'avgPrice': '111742.06650', 'origQty': '0.200', 'executedQty': '0.200', 'cumQuote': '22348.41330', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1757429537510, 'updateTime': 1757429537510}
+2025-09-09 20:22:13,964 - INFO - Market order placed: {'orderId': 5644009174, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJee8d54e2480f91f9b5f8b9', 'price': '0.00', 'avgPrice': '111742.06650', 'origQty': '0.200', 'executedQty': '0.200', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757429537510}
+2025-09-09 20:22:13,966 - INFO - \u2705 Order 5644009174 placed for slice 5
+2025-09-09 20:28:21,096 - INFO - Binance client connected. Server time: {'serverTime': 1757429904801}
+2025-09-09 20:28:53,975 - INFO - Binance client connected. Server time: {'serverTime': 1757429937680}
+2025-09-09 20:28:53,975 - INFO - Input Values FOR MARKET ORDER strategy symbol set to btcusdt side set to 0.05 quantity set to buy 
+2025-09-09 20:28:53,976 - ERROR - EXITING DUE TO INVALID SIDE 0.05
+2025-09-09 20:29:05,035 - INFO - Binance client connected. Server time: {'serverTime': 1757429948741}
+2025-09-09 20:29:05,036 - INFO - Input Values FOR MARKET ORDER strategy symbol set to btcusdt side set to buy quantity set to 0.05 
+2025-09-09 20:29:05,550 - ERROR - Error placing market order: APIError(code=-2019): Margin is insufficient.
+2025-09-09 20:29:13,108 - INFO - Binance client connected. Server time: {'serverTime': 1757429956810}
+2025-09-09 20:29:13,108 - INFO - Input Values FOR MARKET ORDER strategy symbol set to btcusdt side set to sell quantity set to 0.05 
+2025-09-09 20:29:14,053 - INFO - order status for orderid 5644019687 fetched: {'orderId': 5644019687, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJfb61911da32fc23e643d01', 'price': '0.00', 'avgPrice': '111758.89600', 'origQty': '0.050', 'executedQty': '0.050', 'cumQuote': '5587.94480', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1757429957289, 'updateTime': 1757429957289}
+2025-09-09 20:29:14,055 - INFO - Market order placed: {'orderId': 5644019687, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJfb61911da32fc23e643d01', 'price': '0.00', 'avgPrice': '111758.89600', 'origQty': '0.050', 'executedQty': '0.050', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757429957289}
+2025-09-09 20:30:20,270 - INFO - Binance client connected. Server time: {'serverTime': 1757430023975}
+2025-09-09 20:31:25,721 - INFO - Binance client connected. Server time: {'serverTime': 1757430089417}
+2025-09-09 20:31:25,722 - INFO - Input Values FOR TWAP ORDER strategy symbol set to BTCUSDT stop_price set to buy limit_price set to 0.01 quantity set to 112000 side set to 112500 
+2025-09-09 20:31:43,410 - INFO - Binance client connected. Server time: {'serverTime': 1757430107109}
+2025-09-09 20:31:43,410 - INFO - Input Values FOR TWAP ORDER strategy symbol set to BTCUSDT stop_price set to buy limit_price set to 0.01 quantity set to 112000 side set to 112500 
+2025-09-09 20:34:11,069 - INFO - Binance client connected. Server time: {'serverTime': 1757430254761}
+2025-09-09 20:34:11,069 - INFO - Input Values FOR TWAP ORDER strategy symbol set to BTCUSDT stop_price set to buy limit_price set to 0.01 quantity set to 112000 side set to 112500 
+2025-09-09 20:35:50,057 - INFO - Binance client connected. Server time: {'serverTime': 1757430353751}
+2025-09-09 20:35:50,058 - INFO - Input Values FOR TWAP ORDER strategy symbol set to BTCUSDT stop_price set to 112000 limit_price set to 112500 quantity set to buy side set to 0.01 
+2025-09-09 20:35:50,058 - ERROR - EXITING DUE TO INVALID, Quantity buy
+2025-09-09 20:36:05,017 - INFO - Binance client connected. Server time: {'serverTime': 1757430368711}
+2025-09-09 20:36:05,017 - INFO - Input Values FOR TWAP ORDER strategy symbol set to BTCUSDT stop_price set to 112000 limit_price set to 112500 quantity set to 0.01 side set to buy 
+2025-09-09 21:52:31,306 - INFO - Binance client connected. Server time: {'serverTime': 1757434954860}
+2025-09-09 21:52:31,308 - INFO - Input Values FOR LIMIT ORDER strategy symbol set to btcusdt side set to sell quantity set to 0.01 price set to 112831.2 
+2025-09-09 21:52:31,800 - INFO - Limit order placed: {'orderId': 5644147846, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ1b533b0174e34cc8b93d31', 'price': '112831.20', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757434955348}
+2025-09-09 21:52:42,654 - INFO - Binance client connected. Server time: {'serverTime': 1757434966218}
+2025-09-09 21:52:42,655 - INFO - Input Values FOR MARKET ORDER strategy symbol set to btcusdt side set to sell quantity set to 0.01 
+2025-09-09 21:52:42,991 - INFO - order status for orderid 5644148174 fetched: {'orderId': 5644148174, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJee3ae00c1360ae2af3dba3', 'price': '0.00', 'avgPrice': '110765.23000', 'origQty': '0.010', 'executedQty': '0.010', 'cumQuote': '1107.65230', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1757434966387, 'updateTime': 1757434966387}
+2025-09-09 21:52:42,991 - INFO - Market order placed: {'orderId': 5644148174, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJee3ae00c1360ae2af3dba3', 'price': '0.00', 'avgPrice': '110765.23000', 'origQty': '0.010', 'executedQty': '0.010', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757434966387}
+2025-09-09 21:52:57,173 - INFO - Binance client connected. Server time: {'serverTime': 1757434980734}
+2025-09-09 21:52:57,174 - INFO - Input Values FOR TWAP ORDER strategy symbol set to BTCUSDT stop_price set to 112000 limit_price set to 112500 quantity set to 0.01 side set to buy 
+2025-09-09 21:53:15,991 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000019B9AEEA2A0>
+2025-09-09 21:53:30,138 - INFO - Binance client connected. Server time: {'serverTime': 1757435013692}
+2025-09-09 21:53:30,946 - INFO - Limit order placed: {'orderId': 5644149452, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJf65d089f05c57a3bc48faf', 'price': '112980.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757435014505}
+2025-09-09 21:53:31,450 - INFO - Limit order placed: {'orderId': 5644149467, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJfd5ccf1a590837859890e', 'price': '111970.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757435015003}
+2025-09-09 21:53:35,571 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001EFF1429D00>
+2025-09-09 21:53:35,572 - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x000001EFF1419CD0>, 43185.265)])', 'deque([(<aiohttp.client_proto.ResponseHandler object at 0x000001EFF141A3F0>, 43190.218)])']
+connector: <aiohttp.connector.TCPConnector object at 0x000001EFF14295B0>
+2025-09-09 21:53:46,987 - INFO - Binance client connected. Server time: {'serverTime': 1757435030549}
+2025-09-09 21:53:46,996 - INFO - Input Values FOR TWAP ORDER strategy symbol set to btcusdt side set to buy quantity set to 1 parts set to 5 interval set to 10 
+2025-09-09 21:53:46,999 - INFO - Placing TWAP order: 5 slices, 10s interval
+2025-09-09 21:53:47,000 - INFO - Placing slice 1 of 5 for 0.2 BTCUSDT
+2025-09-09 21:53:47,468 - ERROR - Error placing market order: APIError(code=-2019): Margin is insufficient.
+2025-09-09 21:53:47,469 - ERROR - \u274c Exception placing slice 1: Error placing market order: APIError(code=-2019): Margin is insufficient.
+2025-09-09 21:54:06,476 - INFO - Binance client connected. Server time: {'serverTime': 1757435050038}
+2025-09-09 21:54:06,480 - INFO - Input Values FOR TWAP ORDER strategy symbol set to btcusdt side set to buy quantity set to 0.11 parts set to 5 interval set to 10 
+2025-09-09 21:54:06,482 - INFO - Placing TWAP order: 5 slices, 10s interval
+2025-09-09 21:54:06,482 - INFO - Placing slice 1 of 5 for 0.022 BTCUSDT
+2025-09-09 21:54:06,962 - ERROR - Error placing market order: APIError(code=-2019): Margin is insufficient.
+2025-09-09 21:54:06,963 - ERROR - \u274c Exception placing slice 1: Error placing market order: APIError(code=-2019): Margin is insufficient.
+2025-09-09 21:54:15,900 - INFO - Binance client connected. Server time: {'serverTime': 1757435059460}
+2025-09-09 21:54:15,903 - INFO - Input Values FOR TWAP ORDER strategy symbol set to btcusdt side set to sell quantity set to 0.11 parts set to 5 interval set to 10 
+2025-09-09 21:54:15,905 - INFO - Placing TWAP order: 5 slices, 10s interval
+2025-09-09 21:54:15,905 - INFO - Placing slice 1 of 5 for 0.022 BTCUSDT
+2025-09-09 21:54:16,556 - INFO - order status for orderid 5644150241 fetched: {'orderId': 5644150241, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJacfa77c899617d5aae01b1', 'price': '0.00', 'avgPrice': '110812.77273', 'origQty': '0.022', 'executedQty': '0.022', 'cumQuote': '2437.88100', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1757435059947, 'updateTime': 1757435059947}
+2025-09-09 21:54:16,556 - INFO - Market order placed: {'orderId': 5644150241, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJacfa77c899617d5aae01b1', 'price': '0.00', 'avgPrice': '110812.77273', 'origQty': '0.022', 'executedQty': '0.022', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757435059947}
+2025-09-09 21:54:16,557 - INFO - \u2705 Order 5644150241 placed for slice 1
+2025-09-09 21:54:26,572 - INFO - Placing slice 2 of 5 for 0.022 BTCUSDT
+2025-09-09 21:54:27,230 - INFO - order status for orderid 5644150501 fetched: {'orderId': 5644150501, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJd713f6a55eaa331d956e0e', 'price': '0.00', 'avgPrice': '110812.08182', 'origQty': '0.022', 'executedQty': '0.022', 'cumQuote': '2437.86580', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1757435070320, 'updateTime': 1757435070321}
+2025-09-09 21:54:27,231 - INFO - Market order placed: {'orderId': 5644150501, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJd713f6a55eaa331d956e0e', 'price': '0.00', 'avgPrice': '110812.08182', 'origQty': '0.022', 'executedQty': '0.022', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757435070320}
+2025-09-09 21:54:27,231 - INFO - \u2705 Order 5644150501 placed for slice 2
+2025-09-09 21:54:37,238 - INFO - Placing slice 3 of 5 for 0.022 BTCUSDT
+2025-09-09 21:54:37,577 - INFO - order status for orderid 5644150650 fetched: {'orderId': 5644150650, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJ4ddd418fb2a5a831b94fe4', 'price': '0.00', 'avgPrice': '110851.80000', 'origQty': '0.022', 'executedQty': '0.022', 'cumQuote': '2438.73960', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1757435080964, 'updateTime': 1757435080964}
+2025-09-09 21:54:37,577 - INFO - Market order placed: {'orderId': 5644150650, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJ4ddd418fb2a5a831b94fe4', 'price': '0.00', 'avgPrice': '110851.80000', 'origQty': '0.022', 'executedQty': '0.022', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757435080964}
+2025-09-09 21:54:37,578 - INFO - \u2705 Order 5644150650 placed for slice 3
+2025-09-09 21:54:47,581 - INFO - Placing slice 4 of 5 for 0.022 BTCUSDT
+2025-09-09 21:54:48,230 - INFO - order status for orderid 5644150785 fetched: {'orderId': 5644150785, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJf976cec4ea20877b9bcf3a', 'price': '0.00', 'avgPrice': '110809.63182', 'origQty': '0.022', 'executedQty': '0.022', 'cumQuote': '2437.81190', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1757435091305, 'updateTime': 1757435091305}
+2025-09-09 21:54:48,230 - INFO - Market order placed: {'orderId': 5644150785, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJf976cec4ea20877b9bcf3a', 'price': '0.00', 'avgPrice': '110809.63182', 'origQty': '0.022', 'executedQty': '0.022', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757435091305}
+2025-09-09 21:54:48,230 - INFO - \u2705 Order 5644150785 placed for slice 4
+2025-09-09 21:54:58,240 - INFO - Placing slice 5 of 5 for 0.022 BTCUSDT
+2025-09-09 21:54:58,969 - INFO - order status for orderid 5644150978 fetched: {'orderId': 5644150978, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJbbac9603c0a565f5238111', 'price': '0.00', 'avgPrice': '110826.72273', 'origQty': '0.022', 'executedQty': '0.022', 'cumQuote': '2438.18790', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1757435101966, 'updateTime': 1757435101966}
+2025-09-09 21:54:58,970 - INFO - Market order placed: {'orderId': 5644150978, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJbbac9603c0a565f5238111', 'price': '0.00', 'avgPrice': '110826.72273', 'origQty': '0.022', 'executedQty': '0.022', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757435101966}
+2025-09-09 21:54:58,970 - INFO - \u2705 Order 5644150978 placed for slice 5
+2025-09-09 22:10:27,052 - INFO - Binance client connected. Server time: {'serverTime': 1757436030586}
+2025-09-09 22:10:27,055 - INFO - Input Values FOR TWAP ORDER strategy symbol set to btcusdt side set to buy quantity set to 0.0001 parts set to 5 interval set to 10 
+2025-09-09 22:10:27,056 - ERROR - EXITING DUE TO INVALID, Quantity 0.0001 can't be lesser than 0.001
+2025-09-09 22:15:39,191 - INFO - Binance client connected. Server time: {'serverTime': 1757436342713}
+2025-09-09 22:15:39,192 - INFO - Input Values FOR TWAP ORDER strategy symbol set to BTCUSDT stop_price set to 111570 limit_price set to 111550 quantity set to 0.01 side set to buy 
+2025-09-09 22:17:14,808 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002810C31EB10>
+2025-09-09 22:17:18,674 - INFO - Binance client connected. Server time: {'serverTime': 1757436442192}
+2025-09-09 22:17:18,675 - INFO - Input Values FOR TWAP ORDER strategy symbol set to BTCUSDT stop_price set to 111570 limit_price set to 111550 quantity set to 0.01 side set to buy 
+2025-09-09 22:19:11,337 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000014E03A4F080>
+2025-09-09 22:19:31,383 - INFO - Binance client connected. Server time: {'serverTime': 1757436574900}
+2025-09-09 22:19:31,385 - INFO - Input Values FOR TWAP ORDER strategy symbol set to BTCUSDT stop_price set to 111030 limit_price set to 111020 quantity set to 0.01 side set to buy 
+2025-09-09 22:20:39,975 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000018E9CC6F080>
+2025-09-09 22:20:49,033 - INFO - Binance client connected. Server time: {'serverTime': 1757436652545}
+2025-09-09 22:20:49,034 - INFO - Input Values FOR TWAP ORDER strategy symbol set to BTCUSDT stop_price set to 111570 limit_price set to 111550 quantity set to 0.01 side set to buy 
+2025-09-09 22:20:49,759 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002675D501520>
+2025-09-09 22:20:49,760 - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x000002675F3C5D90>, 44824.484)])']
+connector: <aiohttp.connector.TCPConnector object at 0x000002675E79F080>
+2025-09-09 22:21:16,071 - INFO - Binance client connected. Server time: {'serverTime': 1757436679581}
+2025-09-09 22:21:16,071 - INFO - Input Values FOR TWAP ORDER strategy symbol set to BTCUSDT stop_price set to 111570 limit_price set to 111550 quantity set to 0.01 side set to buy 
+2025-09-09 22:21:17,096 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002564A6BF830>
+2025-09-09 22:21:17,097 - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x000002564A995D90>, 44851.812)])']
+connector: <aiohttp.connector.TCPConnector object at 0x000002564A8E94C0>
+2025-09-09 22:21:26,313 - INFO - Binance client connected. Server time: {'serverTime': 1757436689826}
+2025-09-09 22:21:26,314 - INFO - Input Values FOR TWAP ORDER strategy symbol set to BTCUSDT stop_price set to 111570 limit_price set to 111550 quantity set to 0.01 side set to buy 
+2025-09-09 22:21:29,990 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000015A48327260>
+2025-09-09 22:21:29,991 - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x0000015A487C5D90>, 44861.781)])']
+connector: <aiohttp.connector.TCPConnector object at 0x0000015A48324500>
+2025-09-09 22:22:32,175 - INFO - Binance client connected. Server time: {'serverTime': 1757436755683}
+2025-09-09 22:22:32,176 - INFO - Input Values FOR TWAP ORDER strategy symbol set to BTCUSDT stop_price set to 111570 limit_price set to 111550 quantity set to 0.01 side set to buy 
+2025-09-09 22:22:33,275 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001DD9402F830>
+2025-09-09 22:22:33,276 - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x000001DD94C75D90>, 44927.984)])']
+connector: <aiohttp.connector.TCPConnector object at 0x000001DD947A3F80>
+2025-09-09 22:25:32,983 - INFO - Binance client connected. Server time: {'serverTime': 1757436936484}
+2025-09-09 22:25:32,984 - INFO - Input Values FOR STOP LIMIT ORDER strategy symbol set to BTCUSDT stop_price set to 111570.0 limit_price set to 111550.0 quantity set to 0.01 side set to BUY 
+2025-09-09 22:25:34,115 - ERROR - Error placing stop-limit order: APIError(code=-2019): Margin is insufficient.
+2025-09-09 22:26:14,032 - INFO - Binance client connected. Server time: {'serverTime': 1757436977525}
+2025-09-09 22:26:14,033 - INFO - Input Values FOR STOP LIMIT ORDER strategy symbol set to BTCUSDT stop_price set to 111011.0 limit_price set to 10900.0 quantity set to 0.01 side set to BUY 
+2025-09-09 22:26:14,918 - ERROR - Error placing stop-limit order: APIError(code=-2019): Margin is insufficient.
+2025-09-09 22:26:39,758 - INFO - Binance client connected. Server time: {'serverTime': 1757437003262}
+2025-09-09 22:26:39,759 - INFO - Input Values FOR STOP LIMIT ORDER strategy symbol set to BTCUSDT stop_price set to 111200.0 limit_price set to 111205.0 quantity set to 0.01 side set to SELL 
+2025-09-09 22:26:40,301 - ERROR - Error placing stop-limit order: APIError(code=-2021): Order would immediately trigger.
+2025-09-09 22:26:54,248 - INFO - Binance client connected. Server time: {'serverTime': 1757437017747}
+2025-09-09 22:26:54,249 - INFO - Input Values FOR STOP LIMIT ORDER strategy symbol set to BTCUSDT stop_price set to 111200.0 limit_price set to 111505.0 quantity set to 0.01 side set to SELL 
+2025-09-09 22:26:55,106 - ERROR - Error placing stop-limit order: APIError(code=-2021): Order would immediately trigger.
+2025-09-09 22:27:04,001 - INFO - Binance client connected. Server time: {'serverTime': 1757437027501}
+2025-09-09 22:27:04,001 - INFO - Input Values FOR STOP LIMIT ORDER strategy symbol set to BTCUSDT stop_price set to 111450.0 limit_price set to 111505.0 quantity set to 0.01 side set to SELL 
+2025-09-09 22:27:04,559 - ERROR - Error placing stop-limit order: APIError(code=-2021): Order would immediately trigger.
+2025-09-09 22:27:43,201 - INFO - Binance client connected. Server time: {'serverTime': 1757437066700}
+2025-09-09 22:27:43,201 - INFO - Input Values FOR STOP LIMIT ORDER strategy symbol set to BTCUSDT stop_price set to 112920.0 limit_price set to 113020.0 quantity set to 0.01 side set to SELL 
+2025-09-09 22:27:44,025 - ERROR - Error placing stop-limit order: APIError(code=-2021): Order would immediately trigger.
+2025-09-09 22:28:17,596 - INFO - Binance client connected. Server time: {'serverTime': 1757437101094}
+2025-09-09 22:28:17,597 - INFO - Input Values FOR STOP LIMIT ORDER strategy symbol set to BTCUSDT stop_price set to 112920.0 limit_price set to 113020.0 quantity set to 0.01 side set to BUY 
+2025-09-09 22:28:18,184 - ERROR - Error placing stop-limit order: APIError(code=-2019): Margin is insufficient.
+2025-09-09 22:28:25,285 - INFO - Binance client connected. Server time: {'serverTime': 1757437108780}
+2025-09-09 22:28:25,286 - INFO - Input Values FOR STOP LIMIT ORDER strategy symbol set to BTCUSDT stop_price set to 112920.0 limit_price set to 113020.0 quantity set to 0.1 side set to BUY 
+2025-09-09 22:28:26,420 - ERROR - Error placing stop-limit order: APIError(code=-2019): Margin is insufficient.
+2025-09-09 22:29:22,278 - INFO - Binance client connected. Server time: {'serverTime': 1757437165775}
+2025-09-09 22:29:22,278 - INFO - Input Values FOR MARKET ORDER strategy symbol set to btcusdt side set to sell quantity set to 1 
+2025-09-09 22:29:22,758 - ERROR - Error placing market order: APIError(code=-2019): Margin is insufficient.
+2025-09-09 22:29:38,224 - INFO - Binance client connected. Server time: {'serverTime': 1757437181720}
+2025-09-09 22:29:38,224 - INFO - Input Values FOR MARKET ORDER strategy symbol set to btcusdt side set to sell quantity set to 0.6 
+2025-09-09 22:29:38,861 - INFO - order status for orderid 5644191500 fetched: {'orderId': 5644191500, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJ3e94319866e2c789bf5f51', 'price': '0.00', 'avgPrice': '111007.52767', 'origQty': '0.600', 'executedQty': '0.600', 'cumQuote': '66604.51660', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1757437182187, 'updateTime': 1757437182187}
+2025-09-09 22:29:38,861 - INFO - Market order placed: {'orderId': 5644191500, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJ3e94319866e2c789bf5f51', 'price': '0.00', 'avgPrice': '111007.52767', 'origQty': '0.600', 'executedQty': '0.600', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757437182187}
+2025-09-09 22:29:44,876 - INFO - Binance client connected. Server time: {'serverTime': 1757437188375}
+2025-09-09 22:29:44,877 - INFO - Input Values FOR MARKET ORDER strategy symbol set to btcusdt side set to sell quantity set to 0.6/ 
+2025-09-09 22:29:44,877 - ERROR - EXITING DUE TO INVALID, Quantity 0.6/
+2025-09-09 22:29:54,839 - INFO - Binance client connected. Server time: {'serverTime': 1757437198338}
+2025-09-09 22:29:54,840 - INFO - Input Values FOR STOP LIMIT ORDER strategy symbol set to BTCUSDT stop_price set to 112920.0 limit_price set to 113020.0 quantity set to 0.1 side set to BUY 
+2025-09-09 22:29:55,393 - INFO - STOP LIMIT ORDER EXECUTED with orderID: 5644191717
+2025-09-09 22:36:39,002 - ERROR - Error connecting to Binance: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Read timed out. (read timeout=10)
+2025-09-09 22:39:26,946 - INFO - Binance client connected. Server time: {'serverTime': 1757437770426}
+2025-09-09 22:39:27,441 - INFO - Limit order placed: {'orderId': 5644200374, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJc258514b208c55a65d0fa0', 'price': '112980.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757437770918}
+2025-09-09 22:39:27,607 - INFO - Limit order placed: {'orderId': 5644200376, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ86ee7d99d41ab8b00fd56f', 'price': '111970.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757437771083}
+2025-09-09 22:42:44,034 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001CEAB5FE360>
+2025-09-09 22:42:44,035 - ERROR - Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x000001CEABB02330>, 46138.671)])']
+connector: <aiohttp.connector.TCPConnector object at 0x000001CEAA1B9EE0>
+2025-09-09 23:12:27,897 - INFO - Binance client connected. Server time: {'serverTime': 1757439751308}
+2025-09-09 23:12:27,901 - INFO - Input Values FOR MARKET ORDER strategy symbol set to btcusdt side set to sell quantity set to 0.01 
+2025-09-09 23:12:28,541 - INFO - order status for orderid 5644238480 fetched: {'orderId': 5644238480, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJ6a682cb8a94b0ed6fbf63a', 'price': '0.00', 'avgPrice': '110976.55000', 'origQty': '0.010', 'executedQty': '0.010', 'cumQuote': '1109.76550', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1757439751789, 'updateTime': 1757439751789}
+2025-09-09 23:12:28,542 - INFO - Market order placed: {'orderId': 5644238480, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-Cb7ytekJ6a682cb8a94b0ed6fbf63a', 'price': '0.00', 'avgPrice': '110976.55000', 'origQty': '0.010', 'executedQty': '0.010', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757439751789}

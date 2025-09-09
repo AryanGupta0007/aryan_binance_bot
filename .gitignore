@@ -1,0 +1,6 @@
+.env
+myenv/
+.pytest_cache/
+__pycache__/
+advanced/__pycache__/
+todo
