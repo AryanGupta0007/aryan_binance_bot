@@ -19,25 +19,31 @@ git clone https://github.com/AryanGupta0007/aryan_binance_bot
 ```bash
 cd aryan_binance_bot/
 ```
+- **Windows PowerShell**
+```powershell
+cd .\aryan_binance_bot\
+```
 
 2. create a  virtual environment :
 - **Git Bash**
 ```bash
 python -m venv myenv
 ```
-
-
-2. Activate the virtual environment :
 - **Windows PowerShell**
 ```powershell
-.\myenv\Scripts\Activate.ps1
+python -m venv myenv
 ```
 
+3. Activate the virtual environment :
 - **Git Bash**
 ```bash
 source myenv/Scripts/activate 
 ```
-
+- **Windows PowerShell**
+```powershell
+.\myenv\Scripts\Activate.ps1
+```
+Note::
 While activating myenv on powershell if an error occurs, run:
 - **Windows PowerShell**
 ```powershell
@@ -50,18 +56,17 @@ Then retry:
 ```
 
 4. Install the requirements
-- **Windows PowerShell**
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+- **Git Bash**
+```bash
+pip install -r requirements.txt
 ```
-Then retry:
 - **Windows PowerShell**
 ```powershell
-.\myenv\Scripts\Activate.ps1
+pip install -r .\requirements.txt
 ```
 
 
-5. Create a .env folder in root folder  Configure Binance API keys in a `.env` file:
+5. Create a .`.env` file in project root folder and  Configure Binance API keys in that file:
 ```
 BINANCE_API_KEY=your_api_key
 BINANCE_API_SECRET=your_api_secret
